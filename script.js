@@ -13,7 +13,7 @@ function displayProducts(products) {
         const productDiv = document.createElement("div");
         productDiv.className = "product";
         productDiv.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
+            <img src="${product.image}" alt="${product.name} width="350px" height="200px">
             <h3>${product.name}</h3>
             <p>$${product.price}</p>
             <button onclick="addToCart(${product.id})">Add to Cart</button>
